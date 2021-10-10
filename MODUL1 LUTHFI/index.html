@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <ul class="navbar-nav ml-5">
+            <li class="nav-item ml-5">
+                <img src="./media/logo-ead.png" alt="logo ead" width="150px">
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="">Layanan</a>
+            </li>
+            <li class="nav-item ml-3">
+                <a class="nav-link" href="">Registrasi</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+
+    <center>
+        <div class="jumbotron ml-auto mr-auto">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/AwMeQJ_u73I">
+            </iframe>
+            <h1 class="display-4">Klinik EAD</h1>
+            <p class="lead">Klinik EAD merupakan klinik yang menyediakan layanan tes Covid19</p>
+        </div>
+    </center>
+
+    <div class="container mt-5">
+        <center>
+            <h1>Tentang Kami</h1>
+        <br>
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-4 text-justify">
+                Lorem ipsum dolor sit amet consectetur adipsicing elit. Recusandae officiis iste laudantium corrupti rerum aperiam aspernatur ipsa numquam sed labore!
+            </div>
+            <div class="col-sm-4 text-justify">
+                lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem facere quo assumenda similique non, harum ratione eligendi vel iste fugiat, illo reprehenderit commodi placeat.
+            </div>
+        </div>   
+        </center> 
+    </div>
+        <div class="jumbotron ml-auto mr-auto mt-5">
+            <div class="container">
+                <h1 class="d-flex justify-content-center mb-4">Jenis Test</h1>
+                <div class="row">
+                    <!-- card 1 -->
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./media/antigen.jpeg" width="70px" height="250px" alt="antigen">
+                            <div class="card-body">
+                                <h5 class="card-title">Antigen</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nam nemo quibusdam soluta cupiditate inventore sed quasi esse sint cum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./media/pcr.jpeg" width="70px" height="250px" alt="antigen">
+                            <div class="card-body">
+                                <h5 class="card-title">Tes PCR</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nam nemo quibusdam soluta cupiditate inventore sed quasi esse sint cum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./media/antibodi.jpg" width="70px" height="250px" alt="antigen">
+                            <div class="card-body">
+                                <h5 class="card-title">Tes Antibodi</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, nam nemo quibusdam soluta cupiditate inventore sed quasi esse sint cum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container w-50 mt-lg-5">
+            <div class="row mb-5 d-flex justify-content-center">
+                <h1>Registrasi</h1>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <div class="mb-3 row">
+                        <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+                        <div class="col-sm-10">
+                            <input name="nama" class="form-control" type="text" id="nama" value="" placeholder="Nama anda...">
+                        </div>
+                    </div>    
+                    <div class="row mt-4">
+                        <label class="col-sm-2 col-form-label" for="no">Nomor HP</label>
+                        <div class="col-sm-10">
+                            <input name="noHp" class="form-control" type="text" id="no" value="">
+                        </div>
+                    </div> 
+                    <div class="row mt-4">
+                        <label class="col-sm-2 col-form-label" for="riwayat">Riwayat Penyakit</label>
+                        <div class="col-sm-10">
+                            <textarea name="riwayat" value="" class="form-control" id="riwayat" row="3"></textarea>
+                        </div>
+                    </div> 
+                    <div class="row mt-4">
+                        <label class="col-sm-2 col-form-label" for="jenis">Pembayaran</label>
+                        <div class="col" id="radioJenis">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="jenis" id="jenis1">
+                                <label class="form-check-label" for="jenis1">Tunai</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="jenis" id="jenis2">
+                                <label class="form-check-label" for="jenis2">Transfer</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <label class="col-sm-2 col-form-label" for="jenis">Jenis Test</label>
+                        <div class="col-sm-10">
+                            <select class="form-control form-select" name="jenis" id="jenis">
+                                <option value="PCR">PCR</option>
+                                <option value="Rapid Test">Rapid Test</option>
+                                <option value="Antigen">Antigen</option>
+                            </select>
+                        </div>
+                    </div>   
+                    <div class="row mt-4">
+                        <div class="col-sm-2">
+                            <button class="form-control btn-primary w-50">Kirim</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <br>
+        <footer class="mt-lg-5 d-flex justify-content-center mb-3">
+            Dibuat oleh Luthfi_1202190119
+        </footer>
+  </body>
+</html>
