@@ -18,7 +18,7 @@
         date_default_timezone_set("Asia/Jakarta");
 
         $services = array();
-        $nama = $_POST['name'];
+        $name = $_POST['name'];
         $date = $_POST['date'];
         $time = $_POST['time'];
         $building = $_POST['tipe'];

@@ -66,7 +66,7 @@
             </div>
             <div class="form-group mt-3">
               <label for="jam">Duration (Hours)</label>
-              <input type="number" class="form-control" id="jam" name="jam"/>
+              <input type="number" class="form-control" id="jam"/>
             </div>
             <div class="form-group mt-3">
               <label for="tipe">Building Type</label>
