@@ -44,7 +44,7 @@
           <img src=<?php echo $image ?> />
         </div>
         <div class="col">
-          <form action="../My-Booking/mybooking.php" method="POST">
+          <form action="../mybooking.php" method="POST">
             <div class="form-group">
               <label for="name">Nama</label>
               <input
