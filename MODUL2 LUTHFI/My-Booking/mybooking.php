@@ -26,6 +26,7 @@
         $hours = $_POST['jam'];
         $buildingTotal = 0;
         $serviceTotal = 0;
+
         $new_time = strtotime($date.$time . "+".$hours."hours");
 
         if($_POST['check1']){
@@ -69,7 +70,7 @@
     <div class="container">
       <div>
         <h1 class="d-flex justify-content-center">
-          Thank you <?php echo $nama ?> for Reserving
+          Thank you <?php echo $name ?> for Reserving
         </h1>
         <h2 class="d-flex justify-content-center">
           Please Double Check your reservation details
@@ -92,7 +93,7 @@
           <tbody>
             <tr>
               <th scope="row"><?php echo rand() ?></th>
-              <td><?php echo $nama ?></td>
+              <td><?php echo $name ?></td>
               <td><?php echo date("d - m - Y", strtotime($date))." ".date("G:i:s", strtotime($time)) ?></td>
               <td><?php echo date('d-m-y H:i:s', $new_time)  ?></td>
               <td><?php echo $building ?></td>

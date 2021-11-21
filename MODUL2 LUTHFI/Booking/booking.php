@@ -44,7 +44,7 @@
           <img src=<?php echo $image ?> />
         </div>
         <div class="col">
-          <form action="../mybooking.php" method="POST">
+          <form action="../My-Booking/mybooking.php" method="POST">
             <div class="form-group">
               <label for="name">Nama</label>
               <input
@@ -66,7 +66,7 @@
             </div>
             <div class="form-group mt-3">
               <label for="jam">Duration (Hours)</label>
-              <input type="number" class="form-control" id="jam"/>
+              <input type="number" class="form-control" name="jam" id="jam"/>
             </div>
             <div class="form-group mt-3">
               <label for="tipe">Building Type</label>
