@@ -13,7 +13,6 @@ if($_COOKIE['color'] == 'rgb(140, 182, 243)'){
 }else{
     $font = 'white';
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

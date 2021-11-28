@@ -15,7 +15,6 @@ $id = $_SESSION['id'];
 $bookingQuery = "SELECT * FROM bookings where user_id = $id";
 
 $executeQuery = mysqli_query($koneksi, $bookingQuery);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
