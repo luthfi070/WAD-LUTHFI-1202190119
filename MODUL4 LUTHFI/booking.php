@@ -10,7 +10,7 @@ if($_COOKIE['color'] == 'rgb(140, 182, 243)'){
     $font = 'white';
 }
 
-$id = $_SESSION['id'];
+$id = $_SESSION['user_id'];
 
 $bookingQuery = "SELECT * FROM bookings where user_id = $id";
 

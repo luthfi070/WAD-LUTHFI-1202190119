@@ -1,4 +1,5 @@
 <?php 
+echo "halo";
 require('koneksi.php');
 session_start();
 
@@ -12,6 +13,7 @@ $lokasi = $_POST['lokasi'];
 $harga = $_POST['harga'];
 $tanggal = $_POST['tanggal'];
 
+echo $userID;
 $queryBook = "INSERT INTO bookings (user_id, nama_tempat, lokasi, harga, tanggal) VALUES ('$userID', '$namaTempat', '$lokasi', '$harga', '$tanggal')";
 
 $executeQuery = mysqli_query($koneksi, $queryBook);
