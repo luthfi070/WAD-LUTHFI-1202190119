@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--  -->
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -99,6 +100,7 @@
                 </tbody>
             </table>
         </div>
+        <!--  -->
         @endif
         <footer style="margin-top: 230px">
             <center>
@@ -145,3 +147,4 @@
         </div>
     </body>
 </html>
+<!--  -->

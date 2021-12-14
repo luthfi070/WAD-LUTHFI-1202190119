@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
+// 
 class Patient extends Migration
 {
     /**
@@ -26,7 +26,7 @@ class Patient extends Migration
             $table->timestamp('updated_at')->nullable();
         });
     }
-
+// 
     /**
      * Reverse the migrations.
      *

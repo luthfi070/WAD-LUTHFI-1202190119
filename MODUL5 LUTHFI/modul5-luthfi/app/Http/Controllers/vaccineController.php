@@ -34,7 +34,7 @@ class vaccineController extends Controller
 
         return view('vaccine', ['vaccines' => $listVaccines]);
     }
-
+// 
     public function getById($id){
         $detailVaccines = vaccines::where('id', $id)->get();
 

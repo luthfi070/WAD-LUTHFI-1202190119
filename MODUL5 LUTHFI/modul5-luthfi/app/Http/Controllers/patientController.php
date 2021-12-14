@@ -45,7 +45,7 @@ class patientController extends Controller
     }
 
     public function delete($id){
-        $deleteVaccines = patient::where('id', $id)->delete();
+        $deleteVaccines = patient::delete();
 
         return redirect('/patient');
     }

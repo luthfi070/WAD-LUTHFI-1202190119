@@ -27,6 +27,7 @@
             crossorigin="anonymous"
         ></script>
     </head>
+    <!--  -->
     <body>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -75,6 +76,7 @@
                     @endforeach
                 </div>
             </div>
+            <!--  -->
         </div>
         <footer style="margin-top: 50px">
             <center>

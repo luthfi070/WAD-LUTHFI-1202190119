@@ -22,7 +22,7 @@ class Vaccines extends Migration
             $table->string('image', 255);
         });
     }
-
+// 
     /**
      * Reverse the migrations.
      *

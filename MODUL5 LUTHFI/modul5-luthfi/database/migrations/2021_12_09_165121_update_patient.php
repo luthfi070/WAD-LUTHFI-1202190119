@@ -19,7 +19,7 @@ class UpdatePatient extends Migration
             $table->foreign('vaccine_id')->references('id')->on('vaccines');
         });
     }
-
+// 
     /**
      * Reverse the migrations.
      *

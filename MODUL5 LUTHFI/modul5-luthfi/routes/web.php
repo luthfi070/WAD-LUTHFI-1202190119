@@ -36,7 +36,7 @@ Route::get('/patient', [patientController::class, 'view']);
 
 Route::get('/chooseVac', [patientController::class, 'chooseVac']);
 
-Route::get('/registVac/{id}', [patientController::class, 'registrasi']);
+Route::get('/registVac', [patientController::class, 'registrasi']);
 
 Route::post('/daftarVaccine', [patientController::class, 'daftar']);
 
@@ -44,4 +44,4 @@ Route::post('/deletePatient/{id}', [patientController::class, 'delete']);
 
 Route::get('/getPatient/{id}', [patientController::class, 'getById']);
 
-Route::put('/editPatient', [patientController::class, 'edit']);
+Route::post('/editPatient', [patientController::class, 'edit']);
